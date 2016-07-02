@@ -7,6 +7,8 @@ import pip
 import distutils
 import re
 
+__version__ = '1.0.0'
+
 app_install = 'Xonsh'
 principal_package = 'xonsh'
 packages = ('prompt-toolkit', 'PLY', 'Jupyter', 'setproctitle', 'distro')
@@ -69,6 +71,7 @@ def install_app():
 
 
 if __name__ == '__main__':
+    print(('Running xonsh Installer\n    Version: {}'.format(__version__)))
     try:
         if check_root():
             if is_connected():
