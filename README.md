@@ -8,8 +8,20 @@ It is a "script in python language" that installs all the packages and dependenc
 Currently, the script only works for linux and requires installed "pip", "python3-pip" and python3.4+
 
 # Instalation
-
-as root user
-´´´
-  # wget -O - http://css.co.ve/xonshInstaller | python3
-´´´
+As root user:
+```sh
+   ~# wget -O - http://css.co.ve/xonshInstaller | python3
+```
+As sudo user:
+```sh
+   ~$ wget -O - http://css.co.ve/xonshInstaller | sudo python3
+```
+And done.
+If you want change you default shell, run
+```sh
+  ~$ chsh -s $(which xonsh)
+```
+Or if you want to try conch shell, run
+```sh
+  ~$ xonsh
+```
