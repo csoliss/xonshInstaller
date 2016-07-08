@@ -16,7 +16,7 @@ As sudo user:
 ```sh
    ~$ wget -O - http://css.co.ve/xonshInstaller | sudo python3
 ```
-And done.
+And done.   
 If you want change you default shell, run
 ```sh
   ~$ chsh -s $(which xonsh)
