@@ -24,7 +24,7 @@ If you want change you default shell, run
 ```sh
   ~$ chsh -s $(which xonsh)
 ```
-Or if you want to try conch shell, run
+Or if you want to try Xonch Shell, run
 ```sh
   ~$ xonsh
 ```
